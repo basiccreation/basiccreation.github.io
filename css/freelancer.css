@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: #f0ad4e;
 }
 
 h1,
@@ -46,9 +46,20 @@ hr.star-primary {
     text-align: center;
 }
 
+hr.star-primary.portfolio:after {
+    content: "\f121";
+}
+
+hr.star-light.about:after {
+    content: "\f087";
+}
+
+hr.star-primary.contact:after {
+    content: "\f0e0";
+}
+
 hr.star-light:after,
 hr.star-primary:after {
-    content: "\f005";
     display: inline-block;
     position: relative;
     top: -.8em;
@@ -63,7 +74,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #18bc9c;
+    background-color: #f0ad4e;
 }
 
 hr.star-primary {
@@ -82,7 +93,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #18bc9c;
+    background: #f0ad4e;
 }
 
 header .container {
@@ -179,9 +190,9 @@ section h2 {
     font-size: 3em;
 }
 
-section.success {
+section.warning {
     color: #fff;
-    background: #18bc9c;
+    background: #f0ad4e;
 }
 
 section.success a,
@@ -220,7 +231,7 @@ section.success a.active {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(24,188,156,.9);
+    background: rgba(240,173,78,.9);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
