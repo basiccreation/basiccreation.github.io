@@ -49,6 +49,9 @@ hr.star-primary {
 hr.star-primary.portfolio:after {
     content: "\f121";
 }
+hr.star-primary.print-portfolio:after {
+    content: "\f1ea";
+}
 
 hr.star-light.about:after {
     content: "\f087";
@@ -74,7 +77,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #777;
+    background-color: #2c3e50;
 }
 
 hr.star-primary {
@@ -192,7 +195,7 @@ section h2 {
 
 section.warning {
     color: #fff;
-    background: #777;
+    background: #2c3e50;
 }
 
 section.success a,
